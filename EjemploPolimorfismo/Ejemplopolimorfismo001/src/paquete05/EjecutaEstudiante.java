@@ -100,7 +100,7 @@ public class EjecutaEstudiante {
                     // EstudianteDistancia
                     estudiantes.add(estudianteD);                                     
             }
-            System.out.println("Desea agregar mas/?");
+            System.out.println("Desea agregar mas?");
             mas = entrada.next().equalsIgnoreCase("si");
         } while (mas != false);
 
